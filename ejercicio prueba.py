@@ -34,7 +34,7 @@ def comprar_entrada():
         print("Error: No hay entradas disponibles para la función elegida.")
 
 def cambiar_show():
-    print("\n-- Cambiar Show --")
+    print(" Cambiar Show ")
     nombre = input("Nombre del comprador: ").strip()
 
     if nombre not in compradores:
