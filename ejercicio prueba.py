@@ -16,7 +16,7 @@ def comprar_entrada():
     funcion_input = input("Función (1 o 2): ").strip()
 
     if not funcion_input.isdigit():
-        print("Error: opción de función inválida.")
+        print("Error: función inválida.")
         return
 
     funcion = int(funcion_input)
